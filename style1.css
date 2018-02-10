@@ -1,0 +1,59 @@
+
+.navbar-header {
+	background-color:#94af76;
+	height: 50px;
+}
+
+.nav-link {
+  font-family: Lobster, Monospace;
+  color:#424242;
+}
+
+#AboutMe {
+	background-color:#dcedc8 ;
+	height: 880px;
+}
+
+#Portfolio {
+  background-color: #F2F3F4;
+  height: 930px;
+}
+
+#mainImage{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	border-color: #94af76;
+    border-width: 10px;
+    border-style: solid;
+    margin-bottom: 100px;
+}
+
+#mainArticle {
+	padding: 0px 200px 0px 200px;
+}
+
+.imgsPortfolio{
+	border-color: #94af76;
+    border-width: 3px;
+    border-style: solid;	
+}
+
+.imgsPortfolio:hover{
+	filter: drop-shadow(8px 8px 10px gray);
+
+}
+
+.inactive{
+	filter: opacity(0.50);
+}
+
+.inactive:hover{
+	filter: drop-shadow(8px 8px 10px gray);
+	filter: opacity(0.50);
+
+}	
+
+.smaller-image {
+  width: 100px;
+}
