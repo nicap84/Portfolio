@@ -1,7 +1,11 @@
 
-.navbar-header {
+header {
 	background-color:#94af76;
 	height: 50px;
+	position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    box-shadow: 0 0 30px black;
 }
 
 .nav-link {
@@ -11,12 +15,12 @@
 
 #AboutMe {
 	background-color:#dcedc8 ;
-	height: 880px;
+	height: 960px;
 }
 
 #Portfolio {
   background-color: #F2F3F4;
-  height: 930px;
+  height: 960px;
 }
 
 #mainImage{
@@ -29,14 +33,21 @@
     margin-bottom: 100px;
 }
 
+p{
+	font-family: Lobster, Monospace;
+}
+
 #mainArticle {
 	padding: 0px 200px 0px 200px;
 }
 
 .imgsPortfolio{
-	border-color: #94af76;
+	width: 250px;
+	height: 350px;	
+	border-color: #444444;
     border-width: 3px;
-    border-style: solid;	
+    border-style: solid;
+    margin-bottom: 30px;	
 }
 
 .imgsPortfolio:hover{
@@ -49,11 +60,23 @@
 }
 
 .inactive:hover{
-	filter: drop-shadow(8px 8px 10px gray);
-	filter: opacity(0.50);
-
+	filter: drop-shadow(8px 8px 10px gray);	
 }	
 
-.smaller-image {
-  width: 100px;
+.linksImg{
+  width: 60px;
+  height: 60px; 
+  filter: opacity(0.75);
+  margin-right: 30px;
+  align-self: right;
+}
+
+.linksImg:hover{
+  background-color: #c5e1a5;
+  border-radius: 50%;  
+  filter: opacity(1);
+}
+
+footer{
+  background-color:#94af76;
 }
